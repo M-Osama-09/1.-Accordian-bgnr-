@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styling -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Inter";
+        color: #212529;
+        line-height: 1;
+      }
+
+      .accordion {
+        margin: 100px auto;
+      }
+
+      .boxHeader {
+        display: flex;
+        align-items: ;
+      }
+
+      .item {
+        width: 700px;
+        padding: 24px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+      }
+
+      .icon {
+        width: 24px;
+        height: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="accordion">
+      <div class="item">
+        <div class="boxHeader">
+          <p class="number">01</p>
+          <p class="title">Where are these chairs assembled</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </div>
+
+        <div class="hiddenBox">
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aut
+            praesentium sit, cupiditate excepturi quis quisquam repudiandae
+            explicabo similique a, facere tempore in reprehenderit tempora
+            architecto. Quos, illo. Commodi, sapiente.
+          </p>
+
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>
+              Vero non maxime provident aliquam ipsum amet impedit pariatur
+            </li>
+            <li>alias officiis. Hic alias pariatur cupiditate doloremque</li>
+            <li>officia itaque accusantium inventore deserunt.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
